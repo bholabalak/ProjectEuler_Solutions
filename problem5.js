@@ -14,6 +14,11 @@ function lar(v,num){
   }
 }
 
+
+function prob5(){
 for(i=2;i>1;i++){
 lar(i,2);
 }
+}
+
+prob5();
