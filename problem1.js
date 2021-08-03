@@ -3,12 +3,8 @@
 // Find the sum of all the multiples of 3 or 5 below 1000.
 function prob1(n){
 	sum=0;
-	for(i=1;i<n;i++){
-		if((i%3===0)||(i%5===0)){
-			sum=sum+i;
-		}
-	}
-	console.log(sum);
+        sum=(3*(n/3)*((n/3)+1)/2)+(5*(n/5)*((n/5)+1)/2)-(15*(n/15)*((n/15)+1)/2);
+        console.log(sum);
 }
 
 prob1(10);
